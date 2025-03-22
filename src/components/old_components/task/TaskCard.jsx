@@ -3,7 +3,7 @@ import TaskCardTitle from './TaskCardTitle'
 import TaskCardDeleteButton from './button/TaskCardDeleteButton'
 import TaskAddInput from './input/TaskAddInput'
 import Tasks from './Tasks'
-import { Draggable } from 'react-beautiful-dnd'
+import { Draggable } from '@hello-pangea/dnd'
 
 
 const TaskCard = ({taskCardsList,setTaskCardsList,taskCard,index}) => {

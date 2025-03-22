@@ -16,15 +16,18 @@ header {
     text-align: center;
     padding:4px 10%;
     margin-bottom:50px;
-    background-color:rgb(102,94,74);
+    background-color:rgb(152, 132, 228);
 
 }
 
 .app{
-    background: url(../src/images/mountain.jpg);
+    background: url(../src/images/poke0.jpg);
     background-repeat:no-repeat;
     background-size:cover;
     height:100vh;
+    background-color: rgba(0, 0, 25, 0.4); /* 半透明の色を背景に追加 */
+    background-blend-mode: overlay; /* 背景画像と色をブレンド */
+    background-position: 0 20%; /* 画像を上から10%分下げる */
 }
 
 .taskCard{
@@ -37,7 +40,7 @@ header {
 
 .taskCardTitleInputArea{
     margin-bottom:10px;
-    width:30%;
+    width:85%;
     cursor:pointer;
 
 }
@@ -99,7 +102,7 @@ header {
 .addTaskCardButton{
     padding:10px 18px;
     border-radius:9999px;
-    font-size:30px;
+    font-size:18px;
     background-color: rgb(221,194,162);
     box-shadow:3px 3px 8px 1px black;
     cursor:pointer;
@@ -116,7 +119,7 @@ header {
 
 .taskCardTitleAndTaskCardDeleteArea{
     display:flex;
-    justify-content: space-between;
+    justify-content: flex-end;
 }
 
 .taskCardDeleteButton{

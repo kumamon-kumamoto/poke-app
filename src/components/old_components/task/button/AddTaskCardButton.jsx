@@ -14,7 +14,9 @@ const AddTaskCardButton = ({taskCardsList,setTaskCardsList}) => {
   }
   return (
     <div className="addTaskCardButtonArea">
-      <button className="addTaskCardButton" onClick={addTaskCard}>+</button>
+      <button className="addTaskCardButton" onClick={addTaskCard}>
+        ポケモン　<br></br>ガチャ
+      </button>
     </div>
   )
 }

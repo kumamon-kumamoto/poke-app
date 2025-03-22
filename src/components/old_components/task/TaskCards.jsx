@@ -1,7 +1,7 @@
 import {React,useState} from 'react'
 import TaskCard from './TaskCard'
 import AddTaskCardButton from './button/AddTaskCardButton'
-import { DragDropContext, Draggable, Droppable } from 'react-beautiful-dnd'
+import { DragDropContext, Draggable, Droppable } from '@hello-pangea/dnd'
 
 
 const TaskCards = () => {

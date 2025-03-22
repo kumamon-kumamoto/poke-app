@@ -1,6 +1,6 @@
 import React from 'react'
 import Task from './Task'
-import {DragDropContext,Droppable,Draggable} from "react-beautiful-dnd"
+import {DragDropContext,Droppable,Draggable} from '@hello-pangea/dnd'
 
 const recorder=(taskList,startIndex,endIndex)=>{
     const remove=taskList.splice(startIndex,1);
