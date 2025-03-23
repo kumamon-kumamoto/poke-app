@@ -39,6 +39,11 @@ const PokeCards = () => {
             className="taskCardsArea"
             {...provided.droppableProps}
             ref={provided.innerRef}
+            style={{
+              display: 'flex',
+              flexWrap: 'wrap', // アイテムが折り返し
+              gap: '15px', // アイテム間のスペース
+            }}
           >
             {taskCardsList.map((taskCard, index) => (
               <PokeCard

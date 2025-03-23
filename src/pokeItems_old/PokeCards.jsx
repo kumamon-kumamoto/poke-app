@@ -33,7 +33,7 @@ const PokeCards = () => {
 
   return (
     <DragDropContext onDragEnd={handleDragEnd}>
-      <Droppable droppableId="droppable" direction="horizontal">
+      <Droppable droppableId="droppable" direction="vertical">
         {(provided) => (
           <div
             className="taskCardsArea"
